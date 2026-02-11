@@ -40,6 +40,15 @@
             "name": "enhancer",
             "type": "org.jboss.sbomer.events.common.EnhancerSpec",
             "doc": "The specific enhancer from the recipe that should be executed in this step."
+          },
+          {
+            "name": "generationRequest",
+            "type": [
+              "null", 
+              "org.jboss.sbomer.events.common.GenerationRequestSpec"
+            ],
+            "default": null,
+            "doc": "Optional: The full generation request context, including the target identifier (image URL)."
           }
         ]
       }
