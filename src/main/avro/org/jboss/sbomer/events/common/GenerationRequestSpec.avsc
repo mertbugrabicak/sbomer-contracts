@@ -29,6 +29,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "handlerProvidedOptions",
+      "type": [
+        "null",
+        {
+          "type": "map",
+          "values": "string"
+        }
+      ],
+      "default": null,
+      "doc": "Optional map of key-value configuration options provided by the handler. Allows for passing specific flags or configurations unique to the generation being requested by the handler."
     }
   ]
 }
